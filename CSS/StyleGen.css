@@ -1,0 +1,99 @@
+@media screen and (max-width:1000px) {
+  body{
+    width: 1000px ;
+    height: 100%;
+    
+  }
+  
+}
+  
+
+
+*, *::before , *::after{
+  box-sizing: border-box;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  word-break: break-all;
+}
+
+html{
+  font-size: 62.5%;
+  
+  
+}
+
+body{
+  background-color: #2e3238;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  
+}
+
+header{
+  background-color: black;
+  width: 100%; height: 10rem;
+  display: block;
+}
+
+div.header-LoNav{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  height:10rem; width: auto;
+  
+  
+}
+
+.logo{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none; color:aliceblue;
+  font-weight: bold; font-size: xx-large;
+  
+}
+
+.p::first-letter{
+  color: #3d87f5;
+}
+
+span.V{
+  color: #f66031;
+}
+
+div.button{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none; 
+  font-weight: bold; font-size: x-large;
+  
+}
+
+a.ACTU, a.VIDEOS, a.FORUMS, a.CONTACT{
+  display: flex; 
+  flex-direction: row;
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 20px;
+}
+
+a.ACTU:hover, a.VIDEOS:hover, a.FORUMS:hover, a.CONTACT:hover{
+
+  background-color: rgba(211, 211, 211, 0.404);
+  
+
+}
+
+
+
+
+
+

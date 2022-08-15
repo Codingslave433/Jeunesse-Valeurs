@@ -1,0 +1,153 @@
+@media screen and (max-width:1000px) {
+  body{
+    width: 1000px ;
+    height: 100%;
+    margin: 0;
+    
+  }
+  
+}
+
+
+
+*, *::before , *::after{
+  box-sizing: border-box;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  word-break: break-all;
+}
+
+body{
+  font-size: 62.5%;
+  height: 100%; width: 100%;
+}
+  
+
+.article{
+  background-color: black;
+  display: block;
+  position: relative;
+  height: 50em; width: 150em;
+  margin-right: auto; margin-left: auto;
+  top: 2em;
+  
+  
+  
+}
+
+.article-content{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%; height: 100% ;
+}
+
+.article-title{
+  color: aliceblue;
+  display: flex;
+  position: relative;
+  font-weight: bold; font-size: x-large;
+  text-decoration: underline; text-decoration-color: #3d87f5;
+  text-decoration-thickness: 0.3em; 
+  margin-left: 2em; margin-top: 1em;
+}
+
+.article-ACbutton a{
+  color: aliceblue;
+  display: flex;
+  position: relative;
+  font-weight: bold; font-size: xx-large;
+  height: fit-content; width: fit-content;
+  top: 8.4em; left: 21em;
+  text-decoration: none;
+  
+  
+
+}
+
+.article-ACbutton a:hover{
+  color: rgba(211, 211, 211, 0.404);
+}
+
+.videos{
+  background-color: black;
+  display: block;
+  position: relative;
+  height: 50em; width: 150em;
+  margin-right: auto; margin-left: auto;
+  top: 5em;
+}
+
+.videos-content{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%; height: 100% ;
+}
+
+.videos-title{
+  color: aliceblue;
+  display: flex;
+  position: relative;
+  font-weight: bold; font-size: x-large;
+  text-decoration: underline; text-decoration-color: #f66031;
+  text-decoration-thickness: 0.3em; 
+  margin-left: 2em; margin-top: 1em;
+}
+
+.videos-ACbutton a{
+  color: aliceblue;
+  display: flex;
+  position: relative;
+  font-weight: bold; font-size: xx-large;
+  height: fit-content; width: fit-content;
+  top: 8.4em; left: 21em;
+  text-decoration: none;
+}
+
+.videos-ACbutton a:hover{
+  color: rgba(211, 211, 211, 0.404);
+}
+
+.Forums{
+  background-color: black;
+  display: flex;
+  position: relative;
+  height: 50em; width: 75em;
+  margin-right: auto; margin-left: 24.6%;
+  top: 8em;
+}
+
+.forums-content{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%; height: 100% ;
+}
+
+.forums-title{
+  color: aliceblue;
+  display: flex;
+  position: relative;
+  font-weight: bold; font-size: x-large;
+  text-decoration: underline; text-decoration-color: #f66031;
+  text-decoration-thickness: 0.3em; 
+  margin-left: 2em; margin-top: 1em;
+}
+
+.forums-ACbutton a{
+  color: aliceblue;
+  display: flex;
+  position: relative;
+  font-weight: bold; font-size: xx-large;
+  height: fit-content; width: fit-content;
+  top: 8.4em; left: 9em;
+  text-decoration: none;
+}
+
+.forums-ACbutton a:hover{
+  color: rgba(211, 211, 211, 0.404);
+}
