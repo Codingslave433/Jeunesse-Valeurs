@@ -19,23 +19,47 @@ aside{
 section.aside-top{
   display: flex;
   flex-direction: column;
-  width: 100%; height: 20em;
-  justify-content: center;
-  align-items: center;
+  width: 100%; height: 100em;
+  align-items: flex-start;
+  justify-content: space-around;
+  
+}
+
+ul.Liste1 , .Liste2{
+  display:table-cell;
+  margin: 1em;
+  padding: 1em;
 }
 
 div.aside-top-title{
   color: aliceblue;
+  display: flex;
   font-weight: bold; font-size: large;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3em;
+  margin-left: 2em;
 }
 
-div.asside-top-img{
+div.asside-top-nav{
   display: flex;
-  width: 100%; height: 12em;
+  flex-direction:row;
+  width: 100%; height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
   justify-content: center;
-  margin-top: 20px;
+
 }
+
+section.aside-nav{
+  display: flex;
+  flex-direction: column;
+  width: 100%; height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  justify-content: space-evenly;
   
+}
+
 div.aside-nav-title{
   display: flex;
   flex-direction: row;
@@ -45,6 +69,7 @@ div.aside-nav-title{
   margin-top: 2em;
   text-decoration-thickness: 0.3em;
   justify-content: center;
+  margin-left: 2em;
 }
 
 
@@ -52,15 +77,16 @@ div.aside-nav-title{
 div.aside-nav-categories{
   display: flex;
   flex-direction:row;
-  width: 100%; height: 100%;
-  margin-top: 5em; 
+  width: 100%; height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
   justify-content: center;
 }
 
-div.aside-nav-categories-grid , .Button-Aside{
+.Button-Aside{
  color: aliceblue;
- display: grid;
- text-decoration: none; font-size: x-large;
+ display:table-cell;
+ text-decoration: none; font-size: large;
  font-weight: bold;
  justify-items: center; align-items: center;
  
@@ -74,7 +100,9 @@ div.aside-nav-categories-grid , .Button-Aside{
 .Button-Aside{
   padding: 5px ;
 }
- 
 
-
-
+ul.Liste3 , .Liste4{
+  display:table-cell;
+  margin: 1em;
+  padding: 1em;
+}

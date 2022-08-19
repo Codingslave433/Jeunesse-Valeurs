@@ -1,14 +1,3 @@
-@media screen and (max-width:1000px) {
-  body{
-    width: 1000px ;
-    height: 100%;
-    
-  }
-  
-}
-  
-
-
 *, *::before , *::after{
   box-sizing: border-box;
 }
@@ -21,76 +10,71 @@
 
 html{
   font-size: 62.5%;
-  
-  
+  size: 100vh;
 }
 
 body{
   background-color: #2e3238;
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
-  
 }
 
 header{
   background-color: black;
-  width: 100%; height: 10rem;
+  width: 100%; height: 15em;
   display: block;
 }
 
-div.header-LoNav{
+nav{
   display: flex;
-  position: relative;
   flex-direction: row;
-  justify-content: center;
-  height:10rem; width: auto;
-  
-  
+  width: 100%; height: 15em;
+  align-items: center; justify-content: center;
 }
 
-.logo{
+.logo a{
   display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  text-decoration: none; color:aliceblue;
-  font-weight: bold; font-size: xx-large;
-  
+  flex-direction:row ;
+  text-decoration: none; color: aliceblue;
+  font-size: x-large; font-weight: bold;
 }
 
-.p::first-letter{
+.logo h1::first-letter{
   color: #3d87f5;
 }
 
-span.V{
+.lcolor{
   color: #f66031;
 }
 
 div.button{
   display: flex;
-  position: relative;
   flex-direction: row;
-  align-items: center;
-  text-decoration: none; 
-  font-weight: bold; font-size: x-large;
-  
-}
-
-a.ACTU, a.VIDEOS, a.FORUMS, a.CONTACT{
-  display: flex; 
-  flex-direction: row;
-  color: aliceblue;
   text-decoration: none;
-  margin: 1rem;
-  padding: 20px;
-}
-
-a.ACTU:hover, a.VIDEOS:hover, a.FORUMS:hover, a.CONTACT:hover{
-
-  background-color: rgba(211, 211, 211, 0.404);
+  font-weight: bold ; font-size: x-large;
+  margin: 1em;
   
-
+  
 }
+
+a.ACTU , a.VIDEOS , a.FORUMS , a.CONTACT {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: aliceblue;
+  margin: 0.5em;
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.ACTU:hover , a.VIDEOS:hover , a.FORUMS:hover , a.CONTACT:hover {
+  background-color: rgba(211, 211, 211, 0.396);}
+
+
+
+
 
 
 
